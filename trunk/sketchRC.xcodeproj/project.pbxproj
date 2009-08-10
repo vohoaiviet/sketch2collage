@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXFileReference section */
+		630352150B08989D004696B2 /* Poisson.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Poisson.java; path = matting/Poisson.java; sourceTree = "<group>"; };
+		6303DAEF0AFB35C5000F1393 /* Boundary.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Boundary.java; path = matting/Boundary.java; sourceTree = "<group>"; };
+		6305864E0BC23560006A2A2A /* Segmenter.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = Segmenter.java; path = image/dsp/Segmenter.java; sourceTree = "<group>"; };
+		632584DE0BB4DDAD0084FEBB /* KMeans.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = KMeans.java; sourceTree = "<group>"; };
+		632799510B246F0E0064DCDA /* SketchRC.properties */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SketchRC.properties; sourceTree = "<group>"; };
+		63279A7A0B2491110064DCDA /* ModListener.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = ModListener.java; sourceTree = "<group>"; };
+		632B54AE0A68BE6F00829336 /* AMath.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = AMath.java; sourceTree = "<group>"; };
+		633CCE110B57C87600B88E79 /* Render.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Render.java; sourceTree = "<group>"; };
+		633CCEDB0B58CEF200B88E79 /* ColorLabel.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = ColorLabel.java; path = image/dsp/ColorLabel.java; sourceTree = "<group>"; };
+		633CCF840B5903E100B88E79 /* SimpleCanvas.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = SimpleCanvas.java; sourceTree = "<group>"; };
+		633CCFFC0B591A8F00B88E79 /* ObjectImage.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = ObjectImage.java; path = image/dsp/ObjectImage.java; sourceTree = "<group>"; };
+		633CCFFD0B591A8F00B88E79 /* Region.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; name = Region.java; path = image/dsp/Region.java; sourceTree = "<group>"; };
+		633CD0110B5920A700B88E79 /* ImageRetrieval.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ImageRetrieval.java; sourceTree = "<group>"; };
+		633CD0120B5920A700B88E79 /* Retrieval.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = Retrieval.java; sourceTree = "<group>"; };
+		63475B710BD3590500BB25B3 /* Indexer.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Indexer.java; sourceTree = "<group>"; };
+		63475B910BD37C1B00BB25B3 /* Task.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = Task.java; sourceTree = "<group>"; };
+		63556B130A53DB2500253157 /* MANIFEST.MF */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; path = MANIFEST.MF; sourceTree = "<group>"; };
+		63556B160A53DB2500253157 /* PaintCanvas.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = PaintCanvas.java; sourceTree = "<group>"; };
+		63556B170A53DB2500253157 /* SketchRC.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = SketchRC.java; sourceTree = "<group>"; };
+		63556B180A53DB2500253157 /* ToolBar.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ToolBar.java; sourceTree = "<group>"; };
+		63556B1D0A53DB3300253157 /* fileclose.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fileclose.png; sourceTree = "<group>"; };
+		63556B1E0A53DB3300253157 /* filenew.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filenew.png; sourceTree = "<group>"; };
+		63556B1F0A53DB3300253157 /* fileopen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fileopen.png; sourceTree = "<group>"; };
+		63556B200A53DB3300253157 /* filesaveas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = filesaveas.png; sourceTree = "<group>"; };
+		63556B210A53DB3300253157 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		63556B250A53DB4000253157 /* build.xml */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = build.xml; sourceTree = "<group>"; };
+		63556B3B0A53DE8B00253157 /* SOM-CC1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC1.png"; sourceTree = "<group>"; };
+		63556B3C0A53DE8B00253157 /* SOM-CC2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC2.png"; sourceTree = "<group>"; };
+		63556B3D0A53DE8B00253157 /* SOM-CC3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC3.png"; sourceTree = "<group>"; };
+		63556B3E0A53DE8B00253157 /* SOM-CC4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC4.png"; sourceTree = "<group>"; };
+		63556B3F0A53DE8B00253157 /* SOM-CC5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC5.png"; sourceTree = "<group>"; };
+		63556B400A53DE8B00253157 /* SOM-CC6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC6.png"; sourceTree = "<group>"; };
+		63556B410A53DE8B00253157 /* SOM-CC7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC7.png"; sourceTree = "<group>"; };
+		63556B420A53DE8B00253157 /* SOM-CC8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC8.png"; sourceTree = "<group>"; };
+		63556B430A53DE8B00253157 /* SOM-CC9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC9.png"; sourceTree = "<group>"; };
+		63556B440A53DE8B00253157 /* SOM-CC10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC10.png"; sourceTree = "<group>"; };
+		63556B450A53DE8B00253157 /* SOM-CC11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC11.png"; sourceTree = "<group>"; };
+		63556B460A53DE8B00253157 /* SOM-CC12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC12.png"; sourceTree = "<group>"; };
+		63556B470A53DE8B00253157 /* SOM-CC13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOM-CC13.png"; sourceTree = "<group>"; };
+		63617A4B0A6270C300F5AB84 /* ValuePair.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ValuePair.java; sourceTree = "<group>"; };
+		63D477770A65151100E433D2 /* ScrollableJPanel.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ScrollableJPanel.java; sourceTree = "<group>"; };
+		63E07ECC0BD7979A00652BA3 /* CursorController.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; path = CursorController.java; sourceTree = "<group>"; };
+		63E2DC860A6121A6002BC496 /* ExampleFileFilter.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ExampleFileFilter.java; sourceTree = "<group>"; };
+		63E2DC870A6121A6002BC496 /* FileUtils.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = FileUtils.java; sourceTree = "<group>"; };
+		63E2DC880A6121A6002BC496 /* ImageFileFilter.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ImageFileFilter.java; sourceTree = "<group>"; };
+		63E5C33E0B385A1D00F6930A /* Utilities.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = Utilities.java; sourceTree = "<group>"; };
+		63E6DCDE0AFC3C5000AA0111 /* MOps2D.java */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.java; name = MOps2D.java; path = image/dsp/MOps2D.java; sourceTree = "<group>"; };
+		63E9CA8E0B01FC5C00AD2E84 /* ClipCanvas.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = ClipCanvas.java; sourceTree = "<group>"; };
+		63E9CA8F0B01FC5C00AD2E84 /* CompositeButton.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = CompositeButton.java; sourceTree = "<group>"; };
+		63E9CA900B01FC5C00AD2E84 /* CompositeCanvas.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = CompositeCanvas.java; sourceTree = "<group>"; };
+		63F772750B59545100C3C735 /* NaviBar.java */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.java; path = NaviBar.java; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		6303DAEE0AFB3596000F1393 /* matting */ = {
+			isa = PBXGroup;
+			children = (
+				6303DAEF0AFB35C5000F1393 /* Boundary.java */,
+				630352150B08989D004696B2 /* Poisson.java */,
+			);
+			name = matting;
+			sourceTree = "<group>";
+		};
+		632584DD0BB4DDAD0084FEBB /* cluster */ = {
+			isa = PBXGroup;
+			children = (
+				632584DE0BB4DDAD0084FEBB /* KMeans.java */,
+			);
+			path = cluster;
+			sourceTree = "<group>";
+		};
+		632B54AD0A68BE6F00829336 /* math */ = {
+			isa = PBXGroup;
+			children = (
+				632B54AE0A68BE6F00829336 /* AMath.java */,
+			);
+			path = math;
+			sourceTree = "<group>";
+		};
+		633CD0100B5920A700B88E79 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				633CD0110B5920A700B88E79 /* ImageRetrieval.java */,
+				633CD0120B5920A700B88E79 /* Retrieval.java */,
+				63475B710BD3590500BB25B3 /* Indexer.java */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		63556B040A53DB0800253157 = {
+			isa = PBXGroup;
+			children = (
+				63556B250A53DB4000253157 /* build.xml */,
+				63556B1A0A53DB3300253157 /* resources */,
+				63556B0F0A53DB2500253157 /* src */,
+			);
+			sourceTree = "<group>";
+		};
+		63556B0F0A53DB2500253157 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				63E2DC840A6121A6002BC496 /* titech */,
+				63556B130A53DB2500253157 /* MANIFEST.MF */,
+				63F772750B59545100C3C735 /* NaviBar.java */,
+				63556B160A53DB2500253157 /* PaintCanvas.java */,
+				633CCE110B57C87600B88E79 /* Render.java */,
+				63556B170A53DB2500253157 /* SketchRC.java */,
+				63556B180A53DB2500253157 /* ToolBar.java */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		63556B1A0A53DB3300253157 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				63556B3B0A53DE8B00253157 /* SOM-CC1.png */,
+				63556B3C0A53DE8B00253157 /* SOM-CC2.png */,
+				63556B3D0A53DE8B00253157 /* SOM-CC3.png */,
+				63556B3E0A53DE8B00253157 /* SOM-CC4.png */,
+				63556B3F0A53DE8B00253157 /* SOM-CC5.png */,
+				63556B400A53DE8B00253157 /* SOM-CC6.png */,
+				63556B410A53DE8B00253157 /* SOM-CC7.png */,
+				63556B420A53DE8B00253157 /* SOM-CC8.png */,
+				63556B430A53DE8B00253157 /* SOM-CC9.png */,
+				63556B440A53DE8B00253157 /* SOM-CC10.png */,
+				63556B450A53DE8B00253157 /* SOM-CC11.png */,
+				63556B460A53DE8B00253157 /* SOM-CC12.png */,
+				63556B470A53DE8B00253157 /* SOM-CC13.png */,
+				63556B1D0A53DB3300253157 /* fileclose.png */,
+				63556B1E0A53DB3300253157 /* filenew.png */,
+				63556B1F0A53DB3300253157 /* fileopen.png */,
+				63556B200A53DB3300253157 /* filesaveas.png */,
+				63556B210A53DB3300253157 /* next.png */,
+				632799510B246F0E0064DCDA /* SketchRC.properties */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		63617A4A0A6270C300F5AB84 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				63E5C33E0B385A1D00F6930A /* Utilities.java */,
+				63617A4B0A6270C300F5AB84 /* ValuePair.java */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		63D477760A65151100E433D2 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				63E6DCDF0AFC3C5A00AA0111 /* dsp */,
+				6303DAEE0AFB3596000F1393 /* matting */,
+				632B54AD0A68BE6F00829336 /* math */,
+				63D477770A65151100E433D2 /* ScrollableJPanel.java */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		63E2DC840A6121A6002BC496 /* titech */ = {
+			isa = PBXGroup;
+			children = (
+				632584DD0BB4DDAD0084FEBB /* cluster */,
+				633CD0100B5920A700B88E79 /* db */,
+				63E9CA8D0B01FC5C00AD2E84 /* wt */,
+				63617A4A0A6270C300F5AB84 /* util */,
+				63D477760A65151100E433D2 /* image */,
+				63E2DC850A6121A6002BC496 /* file */,
+			);
+			path = titech;
+			sourceTree = "<group>";
+		};
+		63E2DC850A6121A6002BC496 /* file */ = {
+			isa = PBXGroup;
+			children = (
+				63E2DC860A6121A6002BC496 /* ExampleFileFilter.java */,
+				63E2DC870A6121A6002BC496 /* FileUtils.java */,
+				63E2DC880A6121A6002BC496 /* ImageFileFilter.java */,
+			);
+			path = file;
+			sourceTree = "<group>";
+		};
+		63E6DCDF0AFC3C5A00AA0111 /* dsp */ = {
+			isa = PBXGroup;
+			children = (
+				633CCFFC0B591A8F00B88E79 /* ObjectImage.java */,
+				633CCFFD0B591A8F00B88E79 /* Region.java */,
+				63E6DCDE0AFC3C5000AA0111 /* MOps2D.java */,
+				633CCEDB0B58CEF200B88E79 /* ColorLabel.java */,
+				6305864E0BC23560006A2A2A /* Segmenter.java */,
+			);
+			name = dsp;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		63E9CA8D0B01FC5C00AD2E84 /* wt */ = {
+			isa = PBXGroup;
+			children = (
+				63E9CA8E0B01FC5C00AD2E84 /* ClipCanvas.java */,
+				633CCF840B5903E100B88E79 /* SimpleCanvas.java */,
+				63E9CA8F0B01FC5C00AD2E84 /* CompositeButton.java */,
+				63E9CA900B01FC5C00AD2E84 /* CompositeCanvas.java */,
+				63279A7A0B2491110064DCDA /* ModListener.java */,
+				63475B910BD37C1B00BB25B3 /* Task.java */,
+				63E07ECC0BD7979A00652BA3 /* CursorController.java */,
+			);
+			path = wt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		63556B260A53DB5D00253157 /* sketchRC */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-emacs $(ACTION)";
+			buildConfigurationList = 63556B2C0A53DB9300253157 /* Build configuration list for PBXLegacyTarget "sketchRC" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/ant;
+			dependencies = (
+			);
+			name = sketchRC;
+			passBuildSettingsInEnvironment = 1;
+			productName = sketchRC;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		63556B060A53DB0800253157 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 63556B070A53DB0800253157 /* Build configuration list for PBXProject "sketchRC" */;
+			compatibilityVersion = "Xcode 2.4";
+			hasScannedForEncodings = 0;
+			mainGroup = 63556B040A53DB0800253157;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63556B260A53DB5D00253157 /* sketchRC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		63556B080A53DB0800253157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		63556B090A53DB0800253157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+			};
+			name = Release;
+		};
+		63556B2D0A53DB9300253157 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				PRODUCT_NAME = sketchRC;
+			};
+			name = Debug;
+		};
+		63556B2E0A53DB9300253157 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PRODUCT_NAME = sketchRC;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63556B070A53DB0800253157 /* Build configuration list for PBXProject "sketchRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63556B080A53DB0800253157 /* Debug */,
+				63556B090A53DB0800253157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63556B2C0A53DB9300253157 /* Build configuration list for PBXLegacyTarget "sketchRC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63556B2D0A53DB9300253157 /* Debug */,
+				63556B2E0A53DB9300253157 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63556B060A53DB0800253157 /* Project object */;
+}
