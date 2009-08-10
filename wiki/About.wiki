@@ -2,7 +2,9 @@
 
 = Introduction =
 
-Sketch-to-Collage is a tool to help you create image collages with a few clicks. It actually helps you to get IDEAS for images collages, since it helps you explore your image library by using image search. 
+Sketch-to-Collage is a tool to help you create image collages with a few clicks. It actually helps you to get IDEAS for images collages, since it helps you explore your image library by using image search. Here's a demonstration video:
+
+<wiki:video url="http://www.youtube.com/watch?v=WVAkMmKILOE"/>
 
 = Details =
 
